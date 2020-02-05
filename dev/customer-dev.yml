@@ -1,0 +1,16 @@
+server:
+  port: 8060
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eurekaServer/eureka/
+spring:
+  application:
+    name: customer-service
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://localhost:61616
+feign: #使用HttpClient替换默认的HttpURLConnection并使用HttpClient自带连接池
+  httpclient:
+    enabled: true

@@ -1,0 +1,13 @@
+server:
+  port: 8070
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eurekaServer/eureka
+spring:
+  application:
+    name: user-service
+  activemq:
+    user: admin
+    password: admin
+    broker-url: tcp://localhost:61616
