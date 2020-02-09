@@ -1,5 +1,8 @@
 server:
   port: 8090
+  servlet:
+    context-path: /userservice
+
 #eureka:
   #client:
     #service-url:
