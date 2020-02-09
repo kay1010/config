@@ -14,3 +14,4 @@ spring:
     #user: admin
     #password: admin
     #broker-url: tcp://localhost:61616
+text: 111
